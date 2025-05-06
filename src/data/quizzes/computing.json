@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que le développement durable en informatique ?",
+      "answers": [
+        {
+          "text": "Une approche qui vise à réduire l'impact environnemental du numérique",
+          "correct": true
+        },
+        {
+          "text": "Un système de maintenance des ordinateurs",
+          "correct": false
+        },
+        {
+          "text": "Une méthode de programmation",
+          "correct": false
+        },
+        {
+          "text": "Un type de logiciel",
+          "correct": false
+        }
+      ],
+      "explain": "Le développement durable en informatique consiste à concevoir et utiliser les technologies numériques de manière à minimiser leur impact sur l'environnement et à maximiser leur durabilité."
+    },
+    {
+      "question": "Quelle est l'importance de l'optimisation des algorithmes ?",
+      "answers": [
+        {
+          "text": "Elle permet de réduire la consommation de ressources et d'énergie",
+          "correct": true
+        },
+        {
+          "text": "Elle sert uniquement à accélérer les programmes",
+          "correct": false
+        },
+        {
+          "text": "Elle est nécessaire uniquement pour les gros projets",
+          "correct": false
+        },
+        {
+          "text": "Elle permet uniquement de réduire les coûts",
+          "correct": false
+        }
+      ],
+      "explain": "L'optimisation des algorithmes est cruciale car elle permet de réduire la consommation de ressources (CPU, mémoire, énergie) tout en maintenant les performances requises."
+    },
+    {
+      "question": "Qu'est-ce que l'écoconception web ?",
+      "answers": [
+        {
+          "text": "Une approche pour créer des sites web plus respectueux de l'environnement",
+          "correct": true
+        },
+        {
+          "text": "Un style de design pour les sites écologiques",
+          "correct": false
+        },
+        {
+          "text": "Une méthode de référencement",
+          "correct": false
+        },
+        {
+          "text": "Un type d'hébergement web",
+          "correct": false
+        }
+      ],
+      "explain": "L'écoconception web vise à créer des sites internet qui consomment moins de ressources et d'énergie, tout en restant performants et accessibles."
+    },
+    {
+      "question": "Quelle est l'importance du recyclage des déchets électroniques ?",
+      "answers": [
+        {
+          "text": "Il permet de récupérer des matériaux précieux et de réduire la pollution",
+          "correct": true
+        },
+        {
+          "text": "Il sert uniquement à réduire les coûts",
+          "correct": false
+        },
+        {
+          "text": "Il est nécessaire uniquement pour les gros équipements",
+          "correct": false
+        },
+        {
+          "text": "Il permet uniquement de libérer de l'espace",
+          "correct": false
+        }
+      ],
+      "explain": "Le recyclage des déchets électroniques est essentiel car il permet de récupérer des matériaux précieux, de réduire la pollution et de limiter l'extraction de nouvelles ressources."
+    },
+    {
+      "question": "Qu'est-ce que l'économie de fonctionnalité dans le numérique ?",
+      "answers": [
+        {
+          "text": "Un modèle qui privilégie l'usage plutôt que la possession",
+          "correct": true
+        },
+        {
+          "text": "Une méthode de tarification des services",
+          "correct": false
+        },
+        {
+          "text": "Un système de gestion des licences",
+          "correct": false
+        },
+        {
+          "text": "Une approche marketing",
+          "correct": false
+        }
+      ],
+      "explain": "L'économie de fonctionnalité dans le numérique consiste à vendre l'usage d'un service plutôt que le produit lui-même, réduisant ainsi la consommation de ressources."
+    },
+    {
+      "question": "Quelle est l'importance de la maintenance préventive ?",
+      "answers": [
+        {
+          "text": "Elle permet de prolonger la durée de vie des équipements",
+          "correct": true
+        },
+        {
+          "text": "Elle sert uniquement à éviter les pannes",
+          "correct": false
+        },
+        {
+          "text": "Elle est nécessaire uniquement pour les serveurs",
+          "correct": false
+        },
+        {
+          "text": "Elle permet uniquement de maintenir les performances",
+          "correct": false
+        }
+      ],
+      "explain": "La maintenance préventive est cruciale car elle permet de prolonger la durée de vie des équipements, réduisant ainsi la production de déchets électroniques."
+    },
+    {
+      "question": "Qu'est-ce que l'obsolescence logicielle ?",
+      "answers": [
+        {
+          "text": "La limitation de la durée de vie d'un logiciel par des mises à jour",
+          "correct": true
+        },
+        {
+          "text": "Un type de virus informatique",
+          "correct": false
+        },
+        {
+          "text": "Une méthode de programmation",
+          "correct": false
+        },
+        {
+          "text": "Un système de sécurité",
+          "correct": false
+        }
+      ],
+      "explain": "L'obsolescence logicielle est la pratique qui consiste à rendre un logiciel inutilisable ou obsolète par des mises à jour, forçant ainsi l'achat d'une nouvelle version."
+    },
+    {
+      "question": "Quelle est l'importance de l'open source dans le développement durable ?",
+      "answers": [
+        {
+          "text": "Il permet la réutilisation et l'amélioration continue des logiciels",
+          "correct": true
+        },
+        {
+          "text": "Il sert uniquement à réduire les coûts",
+          "correct": false
+        },
+        {
+          "text": "Il est nécessaire uniquement pour les petits projets",
+          "correct": false
+        },
+        {
+          "text": "Il permet uniquement la personnalisation",
+          "correct": false
+        }
+      ],
+      "explain": "L'open source contribue au développement durable en permettant la réutilisation et l'amélioration continue des logiciels, évitant ainsi la duplication de code et les développements inutiles."
+    },
+    {
+      "question": "Qu'est-ce que le cloud computing durable ?",
+      "answers": [
+        {
+          "text": "L'utilisation de services cloud optimisés pour réduire l'impact environnemental",
+          "correct": true
+        },
+        {
+          "text": "Un type d'hébergement gratuit",
+          "correct": false
+        },
+        {
+          "text": "Une méthode de sauvegarde",
+          "correct": false
+        },
+        {
+          "text": "Un système de stockage local",
+          "correct": false
+        }
+      ],
+      "explain": "Le cloud computing durable consiste à utiliser des services cloud optimisés pour réduire la consommation d'énergie et les émissions de CO2."
+    },
+    {
+      "question": "Quelle est l'importance de la virtualisation ?",
+      "answers": [
+        {
+          "text": "Elle permet d'optimiser l'utilisation des ressources matérielles",
+          "correct": true
+        },
+        {
+          "text": "Elle sert uniquement à tester des logiciels",
+          "correct": false
+        },
+        {
+          "text": "Elle est nécessaire uniquement pour les serveurs",
+          "correct": false
+        },
+        {
+          "text": "Elle permet uniquement la sauvegarde",
+          "correct": false
+        }
+      ],
+      "explain": "La virtualisation est importante car elle permet d'optimiser l'utilisation des ressources matérielles, réduisant ainsi la consommation d'énergie et les coûts."
+    }
+  ]
+} 

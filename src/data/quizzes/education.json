@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que l'apprentissage par projet (PBL) ?",
+      "answers": [
+        {
+          "text": "Une méthode d'apprentissage basée sur la résolution de problèmes concrets",
+          "correct": true
+        },
+        {
+          "text": "Un système de notation des projets",
+          "correct": false
+        },
+        {
+          "text": "Une plateforme de gestion de projets",
+          "correct": false
+        },
+        {
+          "text": "Un outil de suivi des étudiants",
+          "correct": false
+        }
+      ],
+      "explain": "L'apprentissage par projet est une approche pédagogique qui permet aux apprenants d'acquérir des connaissances et des compétences en travaillant sur des projets concrets et significatifs."
+    },
+    {
+      "question": "Quelle est l'importance du feedback dans l'apprentissage ?",
+      "answers": [
+        {
+          "text": "Il permet d'améliorer les performances et de corriger les erreurs",
+          "correct": true
+        },
+        {
+          "text": "Il sert uniquement à noter les étudiants",
+          "correct": false
+        },
+        {
+          "text": "Il permet de comparer les étudiants entre eux",
+          "correct": false
+        },
+        {
+          "text": "Il est utilisé uniquement pour l'évaluation finale",
+          "correct": false
+        }
+      ],
+      "explain": "Le feedback est essentiel car il permet aux apprenants de comprendre leurs erreurs, d'améliorer leurs performances et de progresser dans leur apprentissage."
+    },
+    {
+      "question": "Qu'est-ce que l'apprentissage adaptatif ?",
+      "answers": [
+        {
+          "text": "Un système qui s'adapte au rythme et aux besoins de chaque apprenant",
+          "correct": true
+        },
+        {
+          "text": "Une méthode d'apprentissage en groupe",
+          "correct": false
+        },
+        {
+          "text": "Un système de notation automatique",
+          "correct": false
+        },
+        {
+          "text": "Une technique de mémorisation",
+          "correct": false
+        }
+      ],
+      "explain": "L'apprentissage adaptatif utilise la technologie pour personnaliser l'expérience d'apprentissage en fonction des besoins, du rythme et des préférences de chaque apprenant."
+    },
+    {
+      "question": "Quelle est la différence entre l'apprentissage synchrone et asynchrone ?",
+      "answers": [
+        {
+          "text": "Le synchrone se fait en temps réel, l'asynchrone à son propre rythme",
+          "correct": true
+        },
+        {
+          "text": "Le synchrone est en ligne, l'asynchrone en présentiel",
+          "correct": false
+        },
+        {
+          "text": "Le synchrone est individuel, l'asynchrone en groupe",
+          "correct": false
+        },
+        {
+          "text": "Le synchrone est gratuit, l'asynchrone est payant",
+          "correct": false
+        }
+      ],
+      "explain": "L'apprentissage synchrone se déroule en temps réel avec tous les participants connectés simultanément, tandis que l'asynchrone permet aux apprenants de suivre le cours à leur propre rythme."
+    },
+    {
+      "question": "Qu'est-ce que la gamification dans l'éducation ?",
+      "answers": [
+        {
+          "text": "L'utilisation d'éléments de jeu pour motiver l'apprentissage",
+          "correct": true
+        },
+        {
+          "text": "L'apprentissage uniquement par des jeux vidéo",
+          "correct": false
+        },
+        {
+          "text": "Un système de récompenses monétaires",
+          "correct": false
+        },
+        {
+          "text": "Une méthode de notation basée sur des points",
+          "correct": false
+        }
+      ],
+      "explain": "La gamification consiste à intégrer des éléments de jeu (points, badges, niveaux) dans le processus d'apprentissage pour augmenter la motivation et l'engagement des apprenants."
+    },
+    {
+      "question": "Quelle est l'importance de l'apprentissage collaboratif ?",
+      "answers": [
+        {
+          "text": "Il développe les compétences sociales et la résolution de problèmes en groupe",
+          "correct": true
+        },
+        {
+          "text": "Il permet de réduire le temps d'apprentissage",
+          "correct": false
+        },
+        {
+          "text": "Il facilite uniquement la mémorisation",
+          "correct": false
+        },
+        {
+          "text": "Il est utilisé uniquement pour les travaux pratiques",
+          "correct": false
+        }
+      ],
+      "explain": "L'apprentissage collaboratif permet aux apprenants de développer des compétences essentielles comme le travail d'équipe, la communication et la résolution de problèmes en groupe."
+    },
+    {
+      "question": "Qu'est-ce que le microlearning ?",
+      "answers": [
+        {
+          "text": "L'apprentissage par petites unités de contenu courtes et ciblées",
+          "correct": true
+        },
+        {
+          "text": "L'apprentissage sur mobile uniquement",
+          "correct": false
+        },
+        {
+          "text": "Une méthode d'apprentissage accéléré",
+          "correct": false
+        },
+        {
+          "text": "Un système de notation rapide",
+          "correct": false
+        }
+      ],
+      "explain": "Le microlearning consiste à diviser l'apprentissage en petites unités de contenu courtes et ciblées, permettant une meilleure rétention et une plus grande flexibilité."
+    },
+    {
+      "question": "Quelle est l'importance de l'évaluation formative ?",
+      "answers": [
+        {
+          "text": "Elle permet d'améliorer l'apprentissage en cours de formation",
+          "correct": true
+        },
+        {
+          "text": "Elle sert uniquement à noter les étudiants",
+          "correct": false
+        },
+        {
+          "text": "Elle est utilisée uniquement en fin de formation",
+          "correct": false
+        },
+        {
+          "text": "Elle permet de classer les étudiants",
+          "correct": false
+        }
+      ],
+      "explain": "L'évaluation formative est un processus continu qui permet d'identifier les points forts et les faiblesses des apprenants pour ajuster l'enseignement en conséquence."
+    },
+    {
+      "question": "Qu'est-ce que l'apprentissage par compétences ?",
+      "answers": [
+        {
+          "text": "Une approche centrée sur l'acquisition de compétences pratiques",
+          "correct": true
+        },
+        {
+          "text": "Un système de notation basé sur les compétences",
+          "correct": false
+        },
+        {
+          "text": "Une méthode d'apprentissage en ligne",
+          "correct": false
+        },
+        {
+          "text": "Un type de formation professionnelle",
+          "correct": false
+        }
+      ],
+      "explain": "L'apprentissage par compétences se concentre sur l'acquisition de compétences pratiques et applicables plutôt que sur la simple mémorisation de connaissances."
+    },
+    {
+      "question": "Quelle est l'importance de la motivation intrinsèque dans l'apprentissage ?",
+      "answers": [
+        {
+          "text": "Elle favorise un apprentissage plus durable et autonome",
+          "correct": true
+        },
+        {
+          "text": "Elle permet d'obtenir de meilleures notes",
+          "correct": false
+        },
+        {
+          "text": "Elle est nécessaire uniquement pour les études supérieures",
+          "correct": false
+        },
+        {
+          "text": "Elle sert uniquement à maintenir l'attention",
+          "correct": false
+        }
+      ],
+      "explain": "La motivation intrinsèque, qui vient de l'intérêt personnel pour l'apprentissage, est plus durable et efficace que la motivation extrinsèque (récompenses externes)."
+    }
+  ]
+} 
