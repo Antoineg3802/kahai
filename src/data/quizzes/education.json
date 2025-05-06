@@ -1,224 +1,104 @@
 {
   "questions": [
     {
-      "question": "Qu'est-ce que l'apprentissage par projet (PBL) ?",
+      "question": "Qu'est-ce que la sobriété numérique ?",
       "answers": [
-        {
-          "text": "Une méthode d'apprentissage basée sur la résolution de problèmes concrets",
-          "correct": true
-        },
-        {
-          "text": "Un système de notation des projets",
-          "correct": false
-        },
-        {
-          "text": "Une plateforme de gestion de projets",
-          "correct": false
-        },
-        {
-          "text": "Un outil de suivi des étudiants",
-          "correct": false
-        }
+        {"text": "Une démarche visant à limiter l'impact environnemental du numérique", "correct": true},
+        {"text": "Une méthode pour accélérer les ordinateurs", "correct": false},
+        {"text": "Un style de design web", "correct": false},
+        {"text": "Un type de logiciel libre", "correct": false}
       ],
-      "explain": "L'apprentissage par projet est une approche pédagogique qui permet aux apprenants d'acquérir des connaissances et des compétences en travaillant sur des projets concrets et significatifs."
+      "explain": "La sobriété numérique consiste à adopter des usages plus responsables et à limiter la surconsommation de ressources numériques."
     },
     {
-      "question": "Quelle est l'importance du feedback dans l'apprentissage ?",
+      "question": "Quelle est l'empreinte carbone moyenne d'un email ?",
       "answers": [
-        {
-          "text": "Il permet d'améliorer les performances et de corriger les erreurs",
-          "correct": true
-        },
-        {
-          "text": "Il sert uniquement à noter les étudiants",
-          "correct": false
-        },
-        {
-          "text": "Il permet de comparer les étudiants entre eux",
-          "correct": false
-        },
-        {
-          "text": "Il est utilisé uniquement pour l'évaluation finale",
-          "correct": false
-        }
+        {"text": "4g de CO2", "correct": true},
+        {"text": "0.1g de CO2", "correct": false},
+        {"text": "10g de CO2", "correct": false},
+        {"text": "1g de CO2", "correct": false}
       ],
-      "explain": "Le feedback est essentiel car il permet aux apprenants de comprendre leurs erreurs, d'améliorer leurs performances et de progresser dans leur apprentissage."
+      "explain": "Un email simple émet environ 4g de CO2, en tenant compte de l'énergie nécessaire pour le stockage et la transmission."
     },
     {
-      "question": "Qu'est-ce que l'apprentissage adaptatif ?",
+      "question": "Pourquoi limiter le stockage de données inutiles ?",
       "answers": [
-        {
-          "text": "Un système qui s'adapte au rythme et aux besoins de chaque apprenant",
-          "correct": true
-        },
-        {
-          "text": "Une méthode d'apprentissage en groupe",
-          "correct": false
-        },
-        {
-          "text": "Un système de notation automatique",
-          "correct": false
-        },
-        {
-          "text": "Une technique de mémorisation",
-          "correct": false
-        }
+        {"text": "Pour réduire la consommation d'énergie des serveurs", "correct": true},
+        {"text": "Pour accélérer la connexion internet", "correct": false},
+        {"text": "Pour améliorer la sécurité uniquement", "correct": false},
+        {"text": "Pour augmenter la capacité de stockage", "correct": false}
       ],
-      "explain": "L'apprentissage adaptatif utilise la technologie pour personnaliser l'expérience d'apprentissage en fonction des besoins, du rythme et des préférences de chaque apprenant."
+      "explain": "Moins de données stockées signifie moins de ressources utilisées et moins d'énergie consommée."
     },
     {
-      "question": "Quelle est la différence entre l'apprentissage synchrone et asynchrone ?",
+      "question": "Qu'est-ce que l'obsolescence programmée dans le numérique ?",
       "answers": [
-        {
-          "text": "Le synchrone se fait en temps réel, l'asynchrone à son propre rythme",
-          "correct": true
-        },
-        {
-          "text": "Le synchrone est en ligne, l'asynchrone en présentiel",
-          "correct": false
-        },
-        {
-          "text": "Le synchrone est individuel, l'asynchrone en groupe",
-          "correct": false
-        },
-        {
-          "text": "Le synchrone est gratuit, l'asynchrone est payant",
-          "correct": false
-        }
+        {"text": "La limitation volontaire de la durée de vie d'un produit ou logiciel", "correct": true},
+        {"text": "La mise à jour automatique des logiciels", "correct": false},
+        {"text": "Le recyclage des composants électroniques", "correct": false},
+        {"text": "La maintenance préventive des équipements", "correct": false}
       ],
-      "explain": "L'apprentissage synchrone se déroule en temps réel avec tous les participants connectés simultanément, tandis que l'asynchrone permet aux apprenants de suivre le cours à leur propre rythme."
+      "explain": "L'obsolescence programmée vise à réduire la durée de vie des équipements pour inciter à leur remplacement, générant plus de déchets électroniques."
     },
     {
-      "question": "Qu'est-ce que la gamification dans l'éducation ?",
+      "question": "Quelle est l'importance de l'économie circulaire dans le numérique ?",
       "answers": [
-        {
-          "text": "L'utilisation d'éléments de jeu pour motiver l'apprentissage",
-          "correct": true
-        },
-        {
-          "text": "L'apprentissage uniquement par des jeux vidéo",
-          "correct": false
-        },
-        {
-          "text": "Un système de récompenses monétaires",
-          "correct": false
-        },
-        {
-          "text": "Une méthode de notation basée sur des points",
-          "correct": false
-        }
+        {"text": "Réduire les déchets et réutiliser les ressources", "correct": true},
+        {"text": "Augmenter la production de nouveaux équipements", "correct": false},
+        {"text": "Accélérer le renouvellement des technologies", "correct": false},
+        {"text": "Maximiser les profits des fabricants", "correct": false}
       ],
-      "explain": "La gamification consiste à intégrer des éléments de jeu (points, badges, niveaux) dans le processus d'apprentissage pour augmenter la motivation et l'engagement des apprenants."
+      "explain": "L'économie circulaire vise à minimiser les déchets en réutilisant, réparant et recyclant les équipements numériques."
     },
     {
-      "question": "Quelle est l'importance de l'apprentissage collaboratif ?",
+      "question": "Pourquoi privilégier la réparation plutôt que le remplacement des équipements ?",
       "answers": [
-        {
-          "text": "Il développe les compétences sociales et la résolution de problèmes en groupe",
-          "correct": true
-        },
-        {
-          "text": "Il permet de réduire le temps d'apprentissage",
-          "correct": false
-        },
-        {
-          "text": "Il facilite uniquement la mémorisation",
-          "correct": false
-        },
-        {
-          "text": "Il est utilisé uniquement pour les travaux pratiques",
-          "correct": false
-        }
+        {"text": "Pour limiter la production de déchets électroniques", "correct": true},
+        {"text": "Pour obtenir des équipements plus performants", "correct": false},
+        {"text": "Pour bénéficier d'une garantie plus longue", "correct": false},
+        {"text": "Pour réduire la consommation d'eau", "correct": false}
       ],
-      "explain": "L'apprentissage collaboratif permet aux apprenants de développer des compétences essentielles comme le travail d'équipe, la communication et la résolution de problèmes en groupe."
+      "explain": "Réparer prolonge la durée de vie des équipements et limite la production de déchets électroniques."
     },
     {
-      "question": "Qu'est-ce que le microlearning ?",
+      "question": "Qu'est-ce que l'open source et son rôle dans la durabilité ?",
       "answers": [
-        {
-          "text": "L'apprentissage par petites unités de contenu courtes et ciblées",
-          "correct": true
-        },
-        {
-          "text": "L'apprentissage sur mobile uniquement",
-          "correct": false
-        },
-        {
-          "text": "Une méthode d'apprentissage accéléré",
-          "correct": false
-        },
-        {
-          "text": "Un système de notation rapide",
-          "correct": false
-        }
+        {"text": "Il permet la réutilisation et l'amélioration continue des logiciels", "correct": true},
+        {"text": "Il sert uniquement à réduire les coûts", "correct": false},
+        {"text": "Il est nécessaire uniquement pour les petits projets", "correct": false},
+        {"text": "Il permet uniquement la personnalisation", "correct": false}
       ],
-      "explain": "Le microlearning consiste à diviser l'apprentissage en petites unités de contenu courtes et ciblées, permettant une meilleure rétention et une plus grande flexibilité."
+      "explain": "L'open source favorise la mutualisation des ressources et la réduction des développements inutiles."
     },
     {
-      "question": "Quelle est l'importance de l'évaluation formative ?",
+      "question": "Comment réduire l'impact environnemental de l'utilisation quotidienne du numérique ?",
       "answers": [
-        {
-          "text": "Elle permet d'améliorer l'apprentissage en cours de formation",
-          "correct": true
-        },
-        {
-          "text": "Elle sert uniquement à noter les étudiants",
-          "correct": false
-        },
-        {
-          "text": "Elle est utilisée uniquement en fin de formation",
-          "correct": false
-        },
-        {
-          "text": "Elle permet de classer les étudiants",
-          "correct": false
-        }
+        {"text": "En éteignant les appareils inutilisés et en limitant le streaming", "correct": true},
+        {"text": "En augmentant la luminosité des écrans", "correct": false},
+        {"text": "En changeant d'appareil chaque année", "correct": false},
+        {"text": "En utilisant uniquement le Wi-Fi", "correct": false}
       ],
-      "explain": "L'évaluation formative est un processus continu qui permet d'identifier les points forts et les faiblesses des apprenants pour ajuster l'enseignement en conséquence."
+      "explain": "Éteindre les appareils, limiter le streaming et privilégier les usages sobres permet de réduire l'empreinte carbone du numérique."
     },
     {
-      "question": "Qu'est-ce que l'apprentissage par compétences ?",
+      "question": "Pourquoi fermer les onglets et applications inutilisés ?",
       "answers": [
-        {
-          "text": "Une approche centrée sur l'acquisition de compétences pratiques",
-          "correct": true
-        },
-        {
-          "text": "Un système de notation basé sur les compétences",
-          "correct": false
-        },
-        {
-          "text": "Une méthode d'apprentissage en ligne",
-          "correct": false
-        },
-        {
-          "text": "Un type de formation professionnelle",
-          "correct": false
-        }
+        {"text": "Pour économiser de l'énergie et des ressources", "correct": true},
+        {"text": "Pour accélérer la connexion internet", "correct": false},
+        {"text": "Pour améliorer la sécurité uniquement", "correct": false},
+        {"text": "Pour augmenter la capacité de stockage", "correct": false}
       ],
-      "explain": "L'apprentissage par compétences se concentre sur l'acquisition de compétences pratiques et applicables plutôt que sur la simple mémorisation de connaissances."
+      "explain": "Fermer les applications et onglets inutilisés réduit la consommation d'énergie des appareils."
     },
     {
-      "question": "Quelle est l'importance de la motivation intrinsèque dans l'apprentissage ?",
+      "question": "Qu'est-ce que la sobriété fonctionnelle dans les applications ?",
       "answers": [
-        {
-          "text": "Elle favorise un apprentissage plus durable et autonome",
-          "correct": true
-        },
-        {
-          "text": "Elle permet d'obtenir de meilleures notes",
-          "correct": false
-        },
-        {
-          "text": "Elle est nécessaire uniquement pour les études supérieures",
-          "correct": false
-        },
-        {
-          "text": "Elle sert uniquement à maintenir l'attention",
-          "correct": false
-        }
+        {"text": "Limiter les fonctionnalités au strict nécessaire pour réduire la consommation de ressources", "correct": true},
+        {"text": "Ajouter le plus de fonctionnalités possible", "correct": false},
+        {"text": "Rendre l'application plus complexe", "correct": false},
+        {"text": "Augmenter la taille des fichiers", "correct": false}
       ],
-      "explain": "La motivation intrinsèque, qui vient de l'intérêt personnel pour l'apprentissage, est plus durable et efficace que la motivation extrinsèque (récompenses externes)."
+      "explain": "La sobriété fonctionnelle vise à concevoir des applications simples, efficaces et peu gourmandes en ressources."
     }
   ]
 } 

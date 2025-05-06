@@ -18,6 +18,30 @@ export const Sidebar = () => {
         
         <nav className="space-y-2">
           <Link
+            to="/bonnes-pratiques"
+            className={`flex items-center space-x-2 p-3 rounded-lg transition-colors ${
+              isActive("/bonnes-pratiques")
+                ? "bg-green-50 text-green-600"
+                : "text-gray-600 hover:bg-gray-50"
+            }`}
+          >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 10c-2.21 0-4-1.79-4-4h2a2 2 0 004 0h2c0 2.21-1.79 4-4 4zm6-8V7a6 6 0 10-12 0v3a2 2 0 00-2 2v5a2 2 0 002 2h12a2 2 0 002-2v-5a2 2 0 00-2-2z"
+              />
+            </svg>
+            <span>Bonnes pratiques</span>
+          </Link>
+
+          <Link
             to="/"
             className={`flex items-center space-x-2 p-3 rounded-lg transition-colors ${
               isActive("/")
