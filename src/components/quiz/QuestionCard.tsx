@@ -1,5 +1,6 @@
 import { Button } from "../ui/button";
 import type { Question } from "../../types/quiz";
+import { useState } from "react";
 
 interface QuestionCardProps {
   question: Question;
@@ -16,14 +17,21 @@ export const QuestionCard = ({
   onNext,
   selectedAnswer,
 }: QuestionCardProps) => {
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+
+  const handleAnswer = (answer: { text: string; isCorrect: boolean }) => {
+    setSelectedOption(answer.text);
+    onAnswer(answer.isCorrect);
+  };
+
   return (
     <div className="max-w-2xl mx-auto">
       <h2 className="text-xl font-semibold mb-4">{question.question}</h2>
       
       <div className="space-y-3">
         {question.answers.map((answer, index) => {
-          const isSelected = showExplanation && selectedAnswer === answer.correct;
-          const isCorrect = showExplanation && answer.correct;
+          const isCorrect = showExplanation && answer.isCorrect;
+          const isUserChoice = showExplanation && selectedOption === answer.text;
           
           return (
             <Button
@@ -33,17 +41,20 @@ export const QuestionCard = ({
                 showExplanation
                   ? isCorrect
                     ? "bg-green-500 hover:bg-green-600"
-                    : isSelected
+                    : isUserChoice
                     ? "bg-red-500 hover:bg-red-600 text-white"
                     : ""
                   : ""
               }`}
-              onClick={() => onAnswer(answer.correct)}
+              onClick={() => handleAnswer(answer)}
               disabled={showExplanation}
             >
               {answer.text}
               {showExplanation && isCorrect && (
                 <span className="ml-2">✓</span>
+              )}
+              {showExplanation && isUserChoice && !isCorrect && (
+                <span className="ml-2">✗</span>
               )}
             </Button>
           );
@@ -56,6 +67,11 @@ export const QuestionCard = ({
             <p className="font-semibold text-blue-800">
               {selectedAnswer ? "Bonne réponse !" : "Mauvaise réponse"}
             </p>
+            {!selectedAnswer && selectedOption && (
+              <p className="text-red-600 mt-2">
+                Vous avez choisi : "{selectedOption}"
+              </p>
+            )}
             <p className="text-blue-800 mt-2">{question.explain}</p>
           </div>
           <Button

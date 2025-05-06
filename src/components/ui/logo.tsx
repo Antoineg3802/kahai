@@ -1,23 +1,21 @@
-export const Logo = () => (
-  <svg
-    width="40"
-    height="40"
-    viewBox="0 0 40 40"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className="text-green-500"
-  >
-    <path
-      d="M20 4C11.163 4 4 11.163 4 20C4 28.837 11.163 36 20 36C28.837 36 36 28.837 36 20C36 11.163 28.837 4 20 4ZM20 32C13.373 32 8 26.627 8 20C8 13.373 13.373 8 20 8C26.627 8 32 13.373 32 20C32 26.627 26.627 32 20 32Z"
-      fill="currentColor"
-    />
-    <path
-      d="M20 12C15.582 12 12 15.582 12 20C12 24.418 15.582 28 20 28C24.418 28 28 24.418 28 20C28 15.582 24.418 12 20 12ZM20 24C17.791 24 16 22.209 16 20C16 17.791 17.791 16 20 16C22.209 16 24 17.791 24 20C24 22.209 22.209 24 20 24Z"
-      fill="currentColor"
-    />
-    <path
-      d="M20 18C18.895 18 18 18.895 18 20C18 21.105 18.895 22 20 22C21.105 22 22 21.105 22 20C22 18.895 21.105 18 20 18Z"
-      fill="currentColor"
-    />
+interface LogoProps {
+  size?: number;
+}
+
+export const Logo = ({ size = 320 }: LogoProps) => (
+    <svg width={size} height={size * 0.6875} viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="160" cy="200" rx="120" ry="20" fill="#B2DFDB" />
+    <g>
+      <ellipse cx="160" cy="120" rx="80" ry="80" fill="#4CAF50" />
+      <ellipse cx="160" cy="120" rx="70" ry="70" fill="#81C784" />
+      <ellipse cx="160" cy="120" rx="60" ry="60" fill="#A5D6A7" />
+      {/* Mains stylisées */}
+      <path d="M80 120 Q60 180 160 200 Q260 180 240 120" stroke="#FBC02D" strokeWidth="12" fill="none" />
+      <ellipse cx="160" cy="120" rx="50" ry="50" fill="#fff" fillOpacity="0.1" />
+    </g>
+    {/* Nuages */}
+    <ellipse cx="110" cy="80" rx="18" ry="8" fill="#fff" />
+    <ellipse cx="210" cy="70" rx="14" ry="6" fill="#fff" />
+    <ellipse cx="180" cy="160" rx="10" ry="4" fill="#fff" />
   </svg>
 ); 
