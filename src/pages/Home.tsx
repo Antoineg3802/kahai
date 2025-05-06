@@ -56,7 +56,8 @@ export const Home = () => {
       <main className="flex-1 ml-64 p-8 flex items-center justify-center">
         {!selectedTheme ? (
           <div className="max-w-4xl w-full mx-auto flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold text-center mb-8 text-green-700">Choisissez un thème de quiz</h1>
+            <h1 className="text-4xl font-bold text-center mb-4 text-green-700">Choisissez un thème de quiz</h1>
+            <p className="text-xl text-center mb-8 text-green-600 italic">KahAI : Le quiz qui transforme tes clics en déclics.</p>
             <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch w-full">
               {themes.map((theme) => (
                 <Card

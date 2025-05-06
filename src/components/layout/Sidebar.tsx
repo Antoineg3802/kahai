@@ -12,7 +12,7 @@ export const Sidebar = () => {
     <div className="w-64 h-screen bg-white border-r border-gray-200 fixed left-0 top-0">
       <div className="p-6">
         <div className="flex items-center space-x-2 mb-8">
-          <Logo />
+          <Logo size={48} />
           <span className="text-2xl font-bold text-green-600">KAHAI</span>
         </div>
         
