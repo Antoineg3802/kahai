@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+// @ts-ignore
 import path from "path"
 import tailwindcss from "@tailwindcss/vite"
 
@@ -8,6 +9,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
+      // @ts-ignore
       "@": path.resolve(__dirname, "./src"),
     },
   },
