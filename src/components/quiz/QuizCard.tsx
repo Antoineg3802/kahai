@@ -14,6 +14,7 @@ interface QuizCardProps {
 export const QuizCard = ({ quiz, theme }: QuizCardProps) => {
   const navigate = useNavigate();
   const [selectedAnswer, setSelectedAnswer] = useState<boolean | undefined>();
+  const [userAnswers, setUserAnswers] = useState<{ question: string; answer: string; isCorrect: boolean }[]>([]);
   const {
     currentQuestion,
     score,
@@ -24,9 +25,14 @@ export const QuizCard = ({ quiz, theme }: QuizCardProps) => {
     totalQuestions
   } = useQuiz(quiz.questions, theme);
 
-  const handleAnswerWithState = (isCorrect: boolean) => {
+  const handleAnswerWithState = (isCorrect: boolean, answerText: string) => {
     setSelectedAnswer(isCorrect);
     handleAnswer(isCorrect);
+    setUserAnswers(prev => [...prev, {
+      question: currentQuestion.question,
+      answer: answerText,
+      isCorrect
+    }]);
   };
 
   const handleNext = () => {
@@ -57,10 +63,10 @@ export const QuizCard = ({ quiz, theme }: QuizCardProps) => {
       autoTable(doc, {
         startY: 65,
         head: [["Question", "Votre réponse", "Statut"]],
-        body: quiz.questions.map((q, index) => [
-          q.question,
-          q.answers.find(a => a.isCorrect)?.text || "Non répondu",
-          q.answers.find(a => a.isCorrect)?.isCorrect ? "Correct" : "Incorrect"
+        body: userAnswers.map((answer) => [
+          answer.question,
+          answer.answer,
+          answer.isCorrect ? "Correct" : "Incorrect"
         ]),
         theme: "grid",
         headStyles: { fillColor: [34, 197, 94] },
@@ -119,7 +125,7 @@ export const QuizCard = ({ quiz, theme }: QuizCardProps) => {
       </div>
       <QuestionCard
         question={currentQuestion}
-        onAnswer={handleAnswerWithState}
+        onAnswer={(isCorrect, answerText) => handleAnswerWithState(isCorrect, answerText)}
         showExplanation={showExplanation}
         onNext={handleNext}
         selectedAnswer={selectedAnswer}
