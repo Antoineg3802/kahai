@@ -1,224 +1,104 @@
 {
   "questions": [
     {
-      "question": "Qu'est-ce que l'écoconception logicielle ?",
+      "question": "Qu'est-ce que l'écoconception web ?",
       "answers": [
-        {
-          "text": "Une méthode pour réduire l'impact environnemental des logiciels",
-          "correct": true
-        },
-        {
-          "text": "Une technique pour optimiser uniquement la vitesse des programmes",
-          "correct": false
-        },
-        {
-          "text": "Un concept uniquement lié au recyclage du matériel informatique",
-          "correct": false
-        },
-        {
-          "text": "Une approche pour réduire uniquement la consommation d'électricité",
-          "correct": false
-        }
+        {"text": "Une approche pour créer des sites web plus respectueux de l'environnement", "correct": true},
+        {"text": "Un style de design pour les sites écologiques", "correct": false},
+        {"text": "Une méthode de référencement", "correct": false},
+        {"text": "Un type d'hébergement web", "correct": false}
       ],
-      "explain": "L'écoconception logicielle vise à réduire l'impact environnemental des logiciels tout au long de leur cycle de vie, en optimisant les ressources et en minimisant la consommation énergétique."
-    },
-    {
-      "question": "Quelle est la principale source de consommation d'énergie dans un centre de données ?",
-      "answers": [
-        {
-          "text": "Le refroidissement des serveurs",
-          "correct": true
-        },
-        {
-          "text": "L'éclairage des locaux",
-          "correct": false
-        },
-        {
-          "text": "Les écrans des opérateurs",
-          "correct": false
-        },
-        {
-          "text": "Les systèmes de sécurité",
-          "correct": false
-        }
-      ],
-      "explain": "Le refroidissement représente environ 40% de la consommation énergétique d'un centre de données, ce qui en fait la principale source de dépense énergétique."
-    },
-    {
-      "question": "Qu'est-ce que le Green IT ?",
-      "answers": [
-        {
-          "text": "L'ensemble des pratiques visant à réduire l'impact environnemental du numérique",
-          "correct": true
-        },
-        {
-          "text": "Un label pour les ordinateurs recyclés",
-          "correct": false
-        },
-        {
-          "text": "Une technologie de refroidissement des serveurs",
-          "correct": false
-        },
-        {
-          "text": "Un système de recyclage des déchets électroniques",
-          "correct": false
-        }
-      ],
-      "explain": "Le Green IT (ou Green Computing) regroupe toutes les pratiques et technologies visant à réduire l'empreinte écologique du numérique, de la conception à la fin de vie des équipements."
-    },
-    {
-      "question": "Quelle est l'empreinte carbone moyenne d'un email ?",
-      "answers": [
-        {
-          "text": "4g de CO2",
-          "correct": true
-        },
-        {
-          "text": "1g de CO2",
-          "correct": false
-        },
-        {
-          "text": "10g de CO2",
-          "correct": false
-        },
-        {
-          "text": "0.1g de CO2",
-          "correct": false
-        }
-      ],
-      "explain": "Un email simple émet environ 4g de CO2, en tenant compte de l'énergie nécessaire pour le stockage et la transmission. Les pièces jointes peuvent augmenter significativement cette valeur."
-    },
-    {
-      "question": "Qu'est-ce que l'obsolescence programmée dans le domaine informatique ?",
-      "answers": [
-        {
-          "text": "La limitation volontaire de la durée de vie d'un produit",
-          "correct": true
-        },
-        {
-          "text": "La mise à jour automatique des logiciels",
-          "correct": false
-        },
-        {
-          "text": "Le recyclage des composants électroniques",
-          "correct": false
-        },
-        {
-          "text": "La maintenance préventive des équipements",
-          "correct": false
-        }
-      ],
-      "explain": "L'obsolescence programmée est une stratégie qui consiste à réduire délibérément la durée de vie d'un produit pour inciter à son remplacement, générant ainsi plus de déchets électroniques."
+      "explain": "L'écoconception web vise à créer des sites internet qui consomment moins de ressources et d'énergie, tout en restant performants et accessibles."
     },
     {
       "question": "Quelle est la meilleure pratique pour réduire l'impact environnemental d'un site web ?",
       "answers": [
-        {
-          "text": "Optimiser la taille des images et des ressources",
-          "correct": true
-        },
-        {
-          "text": "Augmenter la fréquence des mises à jour",
-          "correct": false
-        },
-        {
-          "text": "Ajouter plus d'animations et d'effets visuels",
-          "correct": false
-        },
-        {
-          "text": "Stocker toutes les données localement",
-          "correct": false
-        }
+        {"text": "Optimiser la taille des images et des ressources", "correct": true},
+        {"text": "Ajouter plus d'animations et d'effets visuels", "correct": false},
+        {"text": "Stocker toutes les données localement", "correct": false},
+        {"text": "Augmenter la fréquence des mises à jour", "correct": false}
       ],
       "explain": "L'optimisation des ressources (images, scripts, etc.) réduit la consommation de bande passante et d'énergie, tout en améliorant les performances du site."
     },
     {
-      "question": "Qu'est-ce que le cycle de vie d'un produit numérique ?",
-      "answers": [
-        {
-          "text": "L'ensemble des étapes de la conception à la fin de vie",
-          "correct": true
-        },
-        {
-          "text": "La durée de garantie du produit",
-          "correct": false
-        },
-        {
-          "text": "La période d'utilisation active du produit",
-          "correct": false
-        },
-        {
-          "text": "Le temps de recyclage des composants",
-          "correct": false
-        }
-      ],
-      "explain": "Le cycle de vie d'un produit numérique comprend toutes les étapes : extraction des matières premières, fabrication, distribution, utilisation et fin de vie (recyclage ou élimination)."
-    },
-    {
-      "question": "Quelle est l'importance de l'économie circulaire dans le numérique ?",
-      "answers": [
-        {
-          "text": "Réduire les déchets et réutiliser les ressources",
-          "correct": true
-        },
-        {
-          "text": "Augmenter la production de nouveaux équipements",
-          "correct": false
-        },
-        {
-          "text": "Accélérer le renouvellement des technologies",
-          "correct": false
-        },
-        {
-          "text": "Maximiser les profits des fabricants",
-          "correct": false
-        }
-      ],
-      "explain": "L'économie circulaire dans le numérique vise à minimiser les déchets en réutilisant, réparant et recyclant les équipements, réduisant ainsi l'impact environnemental."
-    },
-    {
       "question": "Qu'est-ce que l'efficacité énergétique des algorithmes ?",
       "answers": [
-        {
-          "text": "L'optimisation des algorithmes pour réduire la consommation d'énergie",
-          "correct": true
-        },
-        {
-          "text": "La vitesse d'exécution des programmes",
-          "correct": false
-        },
-        {
-          "text": "La capacité de stockage des données",
-          "correct": false
-        },
-        {
-          "text": "La puissance de calcul maximale",
-          "correct": false
-        }
+        {"text": "L'optimisation des algorithmes pour réduire la consommation d'énergie", "correct": true},
+        {"text": "La vitesse d'exécution des programmes", "correct": false},
+        {"text": "La capacité de stockage des données", "correct": false},
+        {"text": "La puissance de calcul maximale", "correct": false}
       ],
       "explain": "L'efficacité énergétique des algorithmes consiste à optimiser le code pour réduire la consommation d'énergie tout en maintenant les performances requises."
     },
     {
-      "question": "Quelle est la part du numérique dans les émissions de gaz à effet de serre mondiales ?",
+      "question": "Pourquoi optimiser la taille des images sur un site web ?",
       "answers": [
-        {
-          "text": "Environ 4%",
-          "correct": true
-        },
-        {
-          "text": "Moins de 1%",
-          "correct": false
-        },
-        {
-          "text": "Environ 10%",
-          "correct": false
-        },
-        {
-          "text": "Plus de 20%",
-          "correct": false
-        }
+        {"text": "Pour réduire la consommation de bande passante et d'énergie", "correct": true},
+        {"text": "Pour améliorer uniquement l'esthétique du site", "correct": false},
+        {"text": "Pour augmenter le temps de chargement", "correct": false},
+        {"text": "Pour stocker plus de données", "correct": false}
       ],
-      "explain": "Le secteur du numérique représente environ 4% des émissions mondiales de gaz à effet de serre, un chiffre qui augmente rapidement avec la croissance du secteur."
+      "explain": "Des images optimisées permettent de réduire la consommation de ressources et d'énergie, tout en accélérant le chargement des pages."
+    },
+    {
+      "question": "Qu'est-ce que le cycle de vie d'un produit numérique ?",
+      "answers": [
+        {"text": "L'ensemble des étapes de la conception à la fin de vie", "correct": true},
+        {"text": "La durée de garantie du produit", "correct": false},
+        {"text": "La période d'utilisation active du produit", "correct": false},
+        {"text": "Le temps de recyclage des composants", "correct": false}
+      ],
+      "explain": "Le cycle de vie d'un produit numérique comprend toutes les étapes : extraction des matières premières, fabrication, distribution, utilisation et fin de vie (recyclage ou élimination)."
+    },
+    {
+      "question": "Comment l'accessibilité web contribue-t-elle à la durabilité ?",
+      "answers": [
+        {"text": "Elle permet à tous d'accéder à l'information sans surconsommer de ressources", "correct": true},
+        {"text": "Elle augmente la consommation d'énergie", "correct": false},
+        {"text": "Elle concerne uniquement les personnes en situation de handicap", "correct": false},
+        {"text": "Elle ralentit les sites web", "correct": false}
+      ],
+      "explain": "Un site accessible est souvent plus léger, mieux structuré et donc plus économe en ressources."
+    },
+    {
+      "question": "Qu'est-ce que le Green IT appliqué au développement web ?",
+      "answers": [
+        {"text": "L'ensemble des pratiques visant à réduire l'impact environnemental du web", "correct": true},
+        {"text": "Un label pour les sites écologiques", "correct": false},
+        {"text": "Une technologie de refroidissement des serveurs", "correct": false},
+        {"text": "Un système de recyclage des données", "correct": false}
+      ],
+      "explain": "Le Green IT regroupe toutes les pratiques et technologies visant à réduire l'empreinte écologique du numérique, y compris le web."
+    },
+    {
+      "question": "Pourquoi limiter le nombre de requêtes HTTP sur un site ?",
+      "answers": [
+        {"text": "Pour réduire la consommation d'énergie et accélérer le chargement", "correct": true},
+        {"text": "Pour augmenter la sécurité uniquement", "correct": false},
+        {"text": "Pour ajouter plus de fonctionnalités", "correct": false},
+        {"text": "Pour améliorer le référencement uniquement", "correct": false}
+      ],
+      "explain": "Moins de requêtes HTTP signifie moins de ressources sollicitées, donc moins d'énergie consommée."
+    },
+    {
+      "question": "Quel est l'impact des animations et scripts lourds sur l'environnement ?",
+      "answers": [
+        {"text": "Ils augmentent la consommation d'énergie et ralentissent le site", "correct": true},
+        {"text": "Ils améliorent l'expérience utilisateur sans conséquence", "correct": false},
+        {"text": "Ils réduisent la consommation de bande passante", "correct": false},
+        {"text": "Ils facilitent l'accessibilité", "correct": false}
+      ],
+      "explain": "Les animations et scripts lourds sollicitent davantage le processeur et la mémoire, ce qui augmente la consommation d'énergie."
+    },
+    {
+      "question": "Comment mesurer l'empreinte carbone d'un site web ?",
+      "answers": [
+        {"text": "En utilisant des outils d'analyse comme Website Carbon Calculator", "correct": true},
+        {"text": "En comptant le nombre de pages", "correct": false},
+        {"text": "En mesurant la vitesse de connexion", "correct": false},
+        {"text": "En vérifiant le nombre d'utilisateurs", "correct": false}
+      ],
+      "explain": "Des outils spécialisés permettent d'estimer l'empreinte carbone d'un site en fonction de sa structure et de son trafic."
     }
   ]
 } 

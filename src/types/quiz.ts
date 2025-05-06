@@ -21,4 +21,4 @@ export interface QuizResult {
   timestamp: number;
 }
 
-export type QuizTheme = "ecology" | "education" | "computing"; 
+export type QuizTheme = "eco-design" | "green-hosting" | "digital-sobriety"; 
