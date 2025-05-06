@@ -4,7 +4,7 @@ import { useState } from "react";
 
 interface QuestionCardProps {
   question: Question;
-  onAnswer: (isCorrect: boolean) => void;
+  onAnswer: (isCorrect: boolean, answerText: string) => void;
   showExplanation: boolean;
   onNext: () => void;
   selectedAnswer?: boolean;
@@ -21,7 +21,7 @@ export const QuestionCard = ({
 
   const handleAnswer = (answer: { text: string; isCorrect: boolean }) => {
     setSelectedOption(answer.text);
-    onAnswer(answer.isCorrect);
+    onAnswer(answer.isCorrect, answer.text);
   };
 
   return (
